@@ -1,0 +1,29 @@
+.one-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #e50914;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.one-product a {
+    text-decoration: none;
+    color: #e50914;
+}
+.one-product p {
+   width: 100px;
+}
+
+.one-product button {
+    font-size: 14px;
+    background-color: #e50914;
+    color: #e5e5e5;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
